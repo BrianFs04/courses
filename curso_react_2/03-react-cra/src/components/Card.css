@@ -1,0 +1,23 @@
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 30px;
+}
+
+.card {
+	display: flex;
+	width: 150px;
+	height: 200px;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+img {
+	width: 6rem;
+	padding: 5px;
+}

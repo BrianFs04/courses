@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>React CDN</title>
+		<script
+			crossorigin
+			src="https://unpkg.com/react@17/umd/react.production.min.js"
+		></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+		></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="text/babel">
+			// class Saludo extends React.Component {
+			// 	render() {
+			// 		return <h1> Hola mundo - Legacy</h1>;
+			// 	}
+			// }
+			const Saludo = () => {
+				return <h1> Hola mundo </h1>;
+			};
+			// Interpolación es una inyección de código dentro de HTML
+			const Interpolar = () => {
+				//const nombre = prompt('¿Cuál es tu nombre?');
+				// States
+				const [numero, setNumero] = React.useState(0);
+
+				setInterval(() => {
+					setNumero(numero + 1);
+				}, 1000);
+
+				return (
+					<div>
+						<h1>Hola {new Date().getFullYear()}</h1>
+						<hr />
+						<h1>{numero}</h1>
+					</div>
+				);
+			};
+			// Reactividad es que cambia la información tanto como de manera interna como en pantalla
+			ReactDOM.render(<Interpolar />, document.querySelector('#root'));
+		</script>
+	</body>
+</html>
