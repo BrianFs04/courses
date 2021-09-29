@@ -1,0 +1,22 @@
+{
+    "cols": [
+        { "id": "navegador", "label": "Navegador", "type": "string" },
+        { "id": "porcien", "label": "Porciento", "type": "number" }
+    ],
+    "rows": [
+        {
+            "c": [{ "v": "Chrome" }, { "v": 61, "f": "Sesenta y un porciento" }]
+        },
+        {
+            "c": [{ "v": "Firefox" }, { "v": 16, "f": "Diez y seis porciento" }]
+        },
+        {
+            "c": [
+                { "v": "Internet Explorer" },
+                { "v": 13, "f": "Trece porciento" }
+            ]
+        },
+        { "c": [{ "v": "Safari" }, { "v": 5, "f": "Cinco porciento" }] },
+        { "c": [{ "v": "Otros" }, { "v": 5, "f": "Principalmente Opera" }] }
+    ]
+}

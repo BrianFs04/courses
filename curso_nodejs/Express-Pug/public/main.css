@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	text-align: center;
+}
+
+figcaption {
+	font-size: 1.5em;
+	margin-bottom: 3rem;
+}
+
+ul,
+li {
+	display: inline;
+}
