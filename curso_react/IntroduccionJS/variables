@@ -1,0 +1,10 @@
+/* eslint-disable no-console */
+/*
+    Numero - Number
+    Texto - String
+    Arrays - Colecciones [1, 2, 3, 4]
+    Objetos - {
+        nombre: "Brian",
+        apelldo: "Florez"
+    };
+*/
