@@ -1,0 +1,25 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg" alt="Nosotros" class="img-fluid")
+            .col-md-7.mt-5
+                h1 #{pagina}
+                blockquote.mt-5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut metus rutrum, bibendum mi id, tincidunt nunc. Maecenas a lacus ut urna imperdiet tempus. Phasellus maximus finibus diam, ut iaculis orci congue vitae. Ut cursus urna vel libero euismod, vitae ornare diam efficitur. Pellentesque sit amet imperdiet erat. Sed ut facilisis neque. Proin viverra ut ipsum vitae convallis. Integer mattis nisl nec ex elementum, imperdiet dapibus nunc luctus. Nam a nibh sollicitudin, volutpat erat eget, pellentesque diam. Curabitur augue erat, bibendum sit amet lorem ac, accumsan pharetra enim. Cras eget cursus erat, quis faucibus velit. Proin suscipit nisl quis neque luctus, a malesuada libero fringilla. Duis lacus sapien, luctus nec maximus eget, lobortis nec urna. Vestibulum iaculis tempus lacus nec blandit. Fusce pellentesque lacus auctor metus venenatis feugiat ac sit amet quam.
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg" alt="Icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Nunc bibendum arcu sed orci posuere faucibus. Donec nisl odio, commodo at arcu eu, dictum pretium augue.
+                .col-md-4
+                    img(src="img/icono_precios.svg" alt="Icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Mejores precios
+                    p Nunc bibendum arcu sed orci posuere faucibus. Donec nisl odio, commodo at arcu eu, dictum pretium augue.
+                .col-md-4
+                    img(src="img/icono_destinos.svg" alt="Icono destinos" class="img-fluid mb-4")
+                    h2.mb-4 Los mejores destinos
+                    p Nunc bibendum arcu sed orci posuere faucibus. Donec nisl odio, commodo at arcu eu, dictum pretium augue.
