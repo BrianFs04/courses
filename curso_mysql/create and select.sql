@@ -1,0 +1,18 @@
+-- CREATE A TABLE
+CREATE TABLE company (
+	id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(10),
+    birth_date DATETIME,
+    age INT,
+    department VARCHAR(15),
+    country VARCHAR(15),
+    PRIMARY KEY(id)
+);
+-- SELECT EVERYTHING FROM A TABLE
+SELECT * FROM company;
+-- DESCRIBE A TABLE
+DESCRIBE company;
+-- SELECT UNIQUE VALUES OF A COLUMN
+SELECT DISTINCT department FROM company;
+-- WHERE
+SELECT * FROM company WHERE department=2;
