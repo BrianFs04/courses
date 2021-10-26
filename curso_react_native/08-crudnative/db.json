@@ -1,0 +1,18 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan",
+      "telefono": "123456789",
+      "correo": "Correo@correo.com",
+      "empresa": "Holberton",
+      "id": 1
+    },
+    {
+      "nombre": "Juan iOS actualizado",
+      "telefono": "3123451234",
+      "correo": "Correo@correo.com",
+      "empresa": "Goes company",
+      "id": 2
+    }
+  ]
+}
